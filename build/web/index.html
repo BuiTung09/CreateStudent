@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Create new Student</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="StudentServlet" method="POST">
+            id: <input type="text" name="id"/> <br/>
+            name: <input type="text" name="name"/> <br/>
+            dob: <input type="date" name="dob"/> <br/>
+            gender: <input type="radio" checked="checked" name="gender" value="male"/>Male 
+            <input type="radio" name="gender" value="female"/>Female <br/>
+            <input type="submit" value="Save"/>
+        </form>
+    </body>
+</html>
